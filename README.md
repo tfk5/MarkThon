@@ -28,7 +28,7 @@ Termix codes for installation through Termex in Google Play for installing Sourc
 
 git clone https://github.com/tfk5/MarkThon
 
-cd iraqthon
+cd MarkThon
 
 virtualenv -p /usr/bin/python3 venv
 
