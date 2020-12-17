@@ -60,7 +60,7 @@ async def _(event):
     else:
         input_str = event.text.split(None, 1)
         add_welcome_setting(event.chat_id, input_str[1], True, 0, None)
-        await event.edit("-  𖢞 Welcome saved - @IQTHON. ")
+        await event.edit("-  𖢞 Welcome saved - @MarkThon1. ")
 
 
 @command(pattern="^.clearwelcome")  # pylint:disable=E0602
@@ -70,7 +70,7 @@ async def _(event):
     cws = get_current_welcome_settings(event.chat_id)
     rm_welcome_setting(event.chat_id)
     await event.edit(
-        "-  𖢞 Welcome cleared - @IQTHON. " + \
+        "-  𖢞 Welcome cleared - @MarkThon1. " + \
         "The previous welcome message was `{}`.".format(cws.custom_welcome_message)
     )
 
