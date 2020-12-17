@@ -6,7 +6,7 @@ from platform import uname
 from userbot import ALIVE_NAME
 from userbot.utils import admin_cmd
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No Name set yet. [iqthon.](t.me/iqthon)"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No Name set yet. [Mark .](t.me/i_M_5)"
 
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
@@ -16,5 +16,5 @@ async def amireallyalive(alive):
                      "𖥳︙ Created By: [DEV](https://t.me/i_M_5) || [CH MarkThon](https://t.me/MarkThon1)\n"
                      "𖥳︙ BOT ORDERS : No thing\n"
                      "𖥳︙ The Files : [Here](https://t.me/MarkThon1)\n"
-                     "𖥳︙ Source link ♻️ : [Here](https://heroku.com/deploy?template=https://github.com/tfk5/MarkThon1)\n"
+                     "𖥳︙ Source link ♻️ : [Here](https://heroku.com/deploy?template=https://github.com/tfk5/MarkThon)\n"
                     f"𖥳︙ The owner : {DEFAULTUSER}\n")
