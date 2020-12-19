@@ -1,4 +1,4 @@
-# @iqthon c 2021
+# @MarkThon1 c 2021
 import asyncio
 import io 
 import telethon.sync
@@ -9,7 +9,7 @@ from userbot import ALIVE_NAME, LESS_SPAMMY
 from userbot.utils import admin_cmd
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "لايوجد اسم عزيزي تابعنا @IQTHON"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "لايوجد اسم عزيزي تابعنا @MarkThon1"
 PREV_REPLY_MESSAGE = {}
 
 
@@ -23,22 +23,22 @@ async def _(event):
             return
         if event.is_private:
          Nudas = ("ذكر الجنسيه.__\n"
-                  "`1`. ⌔︙🕷🇮🇶Source Iraq Channel @IQTHON\n"
-                  "`2`. ⌔︙🕷🇮🇶Principal developer: @klanr\n"
-                  "`3`. ⌔︙🕷🇮🇶BOT commands Iraq Thon @iraqthonbot\n")
-         PM = ("⌔︙🕷🇮🇶Welcome to Source Iraq"
-            f"{DEFAULTUSER}.\n"
-            "⌔︙🕷🇮🇶Source Iraq Channel @IQTHON\n"
-            "⌔︙🕷🇮🇶Principal developer: @klanr\n"
-            "⌔︙🕷🇮🇶Never repeat here\n"
-            "⌔︙🕷🇮🇶Email the person now\n"
-            "⌔︙🕷🇮🇶BOT commands Iraq Thon @iraqthonbot\n"
-            "⌔︙🕷🇮🇶In case here is a problem, send .restart\n")
-         ONE = ("حسنا ارسل رسالتك كامله عند الفراغ ارد عليك")
-         TWO = ("@IQTHON")
-         THREE = ("@IQTHON")
-         FOUR = ("@iraqthonbot")
-         LWARN = ("@IQTHON")
+                  "`1`. 𖥳︙ MarkThon \n"
+                  "`2`. 𖥳︙ Version: 7.7.7\n"
+                  "`3`. 𖥳︙ CH : @Mark_py\n")
+         PM = ("𖥳︙ MarkThon "
+            f" {DEFAULTUSER} \n"
+            "𖥳︙ Version: 7.7.7\n"
+            "𖥳︙ Powered By : Mark @i_M_5\n"
+            "𖥳︙ BOT ORDERS : No thing\n"
+            "𖥳︙ CH : @Mark_py\n"
+            "𖥳︙ CH1 : @MarkThon1\n"
+            "𖥳︙ If your have problem send .restart\n")
+         ONE = ("Ok, send your message in full, I will reply to you")
+         TWO = ("@MarkThon1")
+         THREE = ("@MarkThon1")
+         FOUR = ("@MarkThon1")
+         LWARN = ("@MarkThon1")
      
         async with borg.conversation(chat) as conv:
          await borg.send_message(chat, PM)
@@ -74,7 +74,7 @@ async def _(event):
              await response.delete()
              x = response.text
              if x == "1":
-                 await borg.send_message(chat, "@IQTHON")
+                 await borg.send_message(chat, "@MarkThon1")
                  response = await conv.get_response(chat)
                  if not response.text == "/start":
                      await borg.send_message(chat, LWARN)
@@ -87,7 +87,7 @@ async def _(event):
                          await asyncio.sleep(3)
                          await event.client(functions.contacts.BlockRequest(chat_id))
              elif x == "2":
-                 await borg.send_message(chat, "@IQTHON")
+                 await borg.send_message(chat, "@MarkThon1")
                  response = await conv.get_response(chat)
                  if not response.text == "/start":
                      await borg.send_message(chat, LWARN)
@@ -100,7 +100,7 @@ async def _(event):
                          await asyncio.sleep(3)
                          await event.client(functions.contacts.BlockRequest(chat_id))
              elif x == "3":
-                 await borg.send_message(chat, "@IQTHON")
+                 await borg.send_message(chat, "@MarkThon1")
                  response = await conv.get_response(chat)
                  if not response.text == "/start":
                      await borg.send_message(chat, LWARN)
@@ -113,7 +113,7 @@ async def _(event):
                          await asyncio.sleep(3)
                          await event.client(functions.contacts.BlockRequest(chat_id))
              else:
-                 await borg.send_message(chat, "@IQTHON")
+                 await borg.send_message(chat, "@MarkThon1")
                  response = await conv.get_response(chat)
                  if not response.text.startswith("/start"):
                      await borg.send_message(chat, TWO)
@@ -143,7 +143,7 @@ async def _(event):
                      await asyncio.sleep(3)
                      await event.client(functions.contacts.BlockRequest(chat_id))
          else:
-             await borg.send_message(chat, "@IQTHON")
+             await borg.send_message(chat, "@MarkThon1")
              response = await conv.get_response(chat)
              z = response.text
              if not z == "/start":
