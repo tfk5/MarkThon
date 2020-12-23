@@ -1,7 +1,7 @@
 {
   "name": "MarkThon",
   "description": "Powered By Mark @i_M_5  , https://t.me/i_M_5",
-  "logo": "https://telegra.ph/file/2b775baf8bb56dd0d3969.jpg",
+  "logo": "http://test705.c1.biz/hs.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/tfk5/MarkThon",
+  "repository": "http://test705.c1.biz/hs.jpg",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
